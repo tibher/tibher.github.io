@@ -1,5 +1,570 @@
-<html>
-<body>
-	Site em Construção
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="site, loja virtual, aplicativo, software, sistema">
+  <meta name="author" content="Tibher">
+
+  <title>Tibher - Tudo para você vender pela internet</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+  <link href="css/timeline.css" rel="stylesheet">
+  
+  <style type="text/css">
+	.tibher-header{
+		text-transform: uppercase;
+		background: -webkit-linear-gradient(#EEC900, #DE7300);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	.tibher-grade-item {
+		color: #FFB90F;
+		font-size: 45px;
+		line-height: 50px;
+		font-family: Calibri;
+	}
+	.progress-outer{
+		background: #fff;
+		border-radius: 50px;
+		padding: 0px;
+		margin: 10px 0;
+		box-shadow: 0 0  1px #eee;
+	}
+	.progress{
+		height: 27px;
+		margin: 0;
+		overflow: visible;
+		border-radius: 50px;
+		background: transparent;
+	}
+	.progress .progress-bar{
+		border-radius: 50px;
+	}
+	.progress .progress-value{
+		position: relative;
+		left: -45px;
+		top: 4px;
+		font-size: 14px;
+		font-weight: bold;
+		color: #fff;
+		letter-spacing: 2px;
+	}
+	.progress-bar.active{
+		animation: reverse progress-bar-stripes 1s linear infinite, animate-positive 3s;
+	}
+	@-webkit-keyframes animate-positive{
+		0% { width: 0%; }
+	}
+	@keyframes animate-positive {
+		0% { width: 0%; }
+	}	
+  </style>
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+		<img src="img/logo.png" width="35" height="35" style="width:35px;height:35px;"
+			alt="Tibher, desenvolvimento de soluções inteligentes"/>
+		Tibher
+	  </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+	  <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger text-center" href="#about">
+				<small style="display:block;font-size: 9px;line-height:10px;">Porque</small>
+				<span style="display:block;">Eu Preciso
+					<i class="fa fa-question" style="font-size: 18px;color:#EEC900;"></i>
+				</span>
+			</a>
+          </li>
+		  <li class="nav-item">
+			<a class="nav-link js-scroll-trigger text-center" href="#services">
+				<small style="display:block;font-size: 9px;line-height:10px;">Quais as</small>
+				<span style="display:block;">Soluções
+					<i class="fa fa-question" style="font-size: 18px;color:#EEC900;"></i>
+				</span>
+			</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger text-center" href="#howitworks">
+				<small style="display:block;font-size: 9px;line-height:10px;">Como</small>
+				<span style="display:block;">Funciona
+					<i class="fa fa-question" style="font-size: 18px;color:#EEC900;"></i>
+				</span>
+			</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger text-center" href="#contact">
+				<small style="display:block;font-size: 9px;line-height:10px;">Quero um</small>
+				<span style="display:block;">Orçamento
+					<i class="fa fa-exclamation" style="font-size: 18px;color:#EEC900;"></i>
+				</span>
+			</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text" style="text-shadow: 1px 1px 4px #000;">
+        <div class="intro-lead-in">Você conhece uma marca de sucesso sem site próprio?</div>
+		<a href="#about" class="js-scroll-trigger" >
+			<i class="fa fa-chevron-down" style="font-size: 50px;font-weight:bold;"></i>
+		</a>
+      </div>
+    </div>
+  </header>
+
+ <!-- About -->
+  <section id="about">
+    <div class="container">
+	  <div class="row">
+        <div class="col-lg-12 text-center tibher-header">
+			<small style="font-size: 20px;">Porque</small>
+			<h2 class="section-heading" style="font-size: 50px;">Eu Preciso?</h2>
+		</div>
+      </div>
+	   <div class="row" style="padding: 10px 0;">
+        <div class="col-lg-8 text-center mx-auto">
+			<span style="font-style: italic;color: #999;font-size: 18px;">
+				Um bom site mostra como você domina o assunto e entende seu público. 
+				Passa confiança gerando credibilidade e visibilidade para sua marca o que faz visitantes serem potenciais clientes.
+			</span>
+		</div>
+      </div>
+	</div> 
+
+	<div class="container">
+		<div class="row text-center" style="padding-top: 30px;">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"
+				style="font-style: italic;font-size: 14px;color: #ccc;font-weight: 300;">
+				<div>Sua marca acessível em qualquer local</div>
+				<div style="font-size: 80px;color: #ddd;">
+				 <i class="fa fa-clock"></i>&nbsp;24<small>h</small>
+				</div>
+				<div>por dia, todos os dias</div>	
+			</div>
+		</div>
+		<div class="row" style="padding-top: 20px;">
+			<div class="container-fluid"> 
+				<div class="row" style="background-color: #fdfdfd;">
+					<div class="col-md-4 text-center" >
+						<i class="fa fa-comments-dollar fa-10x" style="color: #eee;"></i>
+						<div class="tibher-grade-item"
+							style="font-size: 120px;line-height: 120px;">
+							<small>+</small>70%
+						</div>
+						<div style="font-size: 20px;color: #ccc;font-style: italic;font-weight: 300;">
+							Dos negócios iniciam com uma visita ao site<br/><br/>
+							
+						</div>
+					</div>
+					<div class="col-md-8 text-center">
+						<div class="row">
+							<div class="col-md-12 text-center" style="font-size: 15px;font-style:italic;color: #ffe62e; padding: 10px;">
+								<i class="fa fa-globe fa-8x" style="color: #fff6b8;"></i>
+								<div class="tibher-grade-item" style="padding: 5px 0;font-size: 80px;line-height: 80px;">
+									<small>+</small>100<small style="font-size: 15px;line-height: 15px;text-transform:uppercase;">bilhões</small>
+								</div>
+								<div style="color: #ccc;font-weight: 300;">de buscas por mês<small style="display:block;">Só no Google</small>
+								</div>
+							</div>
+						</div>
+						<div class="row text-left">
+							<div class="col-md-12">
+							  <div class="row">
+								<div class="container">
+									<span class="tibher-grade-item" style="font-size: 50px;line-height: 50px;font-weight:600;">
+										51<small>%</small>
+									</span>
+									<span style="font-size: 16px;color: #bbb;font-weight:300;">Descobriram uma nova empresa ou produto em uma pesquisa</span>
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="container">
+									<span class="tibher-grade-item" style="font-size: 50px;line-height: 50px;font-weight:600;">
+										78<small>%</small>
+									</span>
+									<span style="font-size: 16px;color: #bbb;font-weight:300;">Das pesquisas locais-móveis resultam em compras offline</span>
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="container">
+									<span class="tibher-grade-item" style="font-size: 50px;line-height: 50px;font-weight:600;">
+										81<small>%</small>
+									</span>
+									<span style="font-size: 16px;color: #bbb;font-weight:300;">Dos compradores pesquisaram antes de fazer grandes compras</span>
+								</div>
+							  </div>
+							  <div class="row text-right">
+								<div class="container">
+									<span style="font-size: 11px;color: #bbb;font-weight:300;font-style italic;">* Dados compilados do Google, Search Engine Land e Retailing Today</span>
+								</div>
+							  </div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="row" style="padding-top: 80px;">
+			<div class="col-md-6 col-xs-6 text-center">
+				<div class="tibher-grade-item" style="padding: 5px 0;">
+					<strong style="display:block;font-size: 70px;line-height:75px;color: #7CCD7C;">98,8%</strong>
+					<small style="display:block;font-size: 14px;line-height:19px;text-transform:uppercase;color: #7CCD7C;">das pessoas </small>
+				</div>
+				<div style="font-size: 16px;color: #ccc;font-style:italic;font-weight: 300;">Já compraram em um e-commerce<br/><small>(E-commerce Trends, 2017)</small></div>
+			</div>
+			<div class="col-md-6 col-xs-6">
+				<strong style="font-size: 13px;color: #ccc;font-weight: 300;">Consultam só na internet antes de comprar</strong>
+				<div class="progress-outer">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" 
+							style="width:62%; background-color: #00CD00; box-shadow:-1px 2px 2px #ddd;"></div>
+						<div class="progress-value">62%</div>
+					</div>
+				</div>
+				<strong style="font-size: 13px;color: #ccc;font-weight: 300;">Querem falar com um vendedor antes da compra</strong>
+				<div class="progress-outer">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" 
+							style="width:29%; background-color: #9BCD9B; box-shadow:-1px 2px 2px #ddd;"></div>
+						<div class="progress-value" style="font-size: 15px;font-weight:bold;">29%</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		  
+	  
+	  
+	  
+  </section>
+	
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <div class="row" style="padding: 20px 0;">
+        <div class="col-lg-12 text-center tibher-header">
+		  <small style="font-size: 20px;">Quais as</small>
+			<h2 class="section-heading" style="font-size: 50px;">Soluções?</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+		<div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Site</h4>
+          <p class="text-muted">Tudo começa aqui. Apresente-se, atraia clientes e gere negócios.</p>
+        </div>
+		<div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Loja Virtual</h4>
+          <p class="text-muted">Gere receita vendendo seus produtos ou serviços na internet.</p>
+        </div>
+		<div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Sistema Web</h4>
+          <p class="text-muted">Inove ou gerencie seu modelo de negócios com um software.</p>
+        </div>
+	  </div>
+    </div>
+  </section>
+
+   <!-- Tecnologias -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row text-center">
+		<div class="col-md-3 col-sm-6" style="padding: 20px 0;">
+			<i class="fa fa-laptop" style="display: block;font-size: 60px;color: #ddd;"></i>
+			<div style="font-weight:bold;font-size:18px;color: #bbb;padding: 10px 0;">Otimizado</div>
+			<div style="font-style:italic;font-size:12px;color: #aaa;">Seguro, rápido e com técnicas avançadas de SEO</div>        
+		</div>
+        <div class="col-md-3 col-sm-6" style="padding: 20px 0;">
+			<i class="fa fa-paint-brush" style="display: block;font-size: 60px;color: #ddd;"></i>
+			<div style="font-weight:bold;font-size:18px;color: #bbb;padding: 10px 0;">Layout Atraente</div>
+			<div style="font-style:italic;font-size:12px;color: #aaa;">Uma apresentação elegante, eficiente e objetiva do seu projeto</div>
+        </div>
+        <div class="col-md-3 col-sm-6" style="padding: 20px 0;">
+            <i class="fa fa-mobile-alt" style="display: block;font-size: 60px;color: #ddd;"></i>
+			<div style="font-weight:bold;font-size:18px;color: #bbb;padding: 10px 0;">Design Responsivo</div>
+			<div style="font-style:italic;font-size:12px;color: #aaa;">Disponível para acessar em computadores, tablets e celulares</div>
+        </div>
+		<div class="col-md-3 col-sm-6" style="padding: 20px 0;">
+			<i class="fa fa-users" style="display: block;font-size: 60px;color: #ddd;"></i>
+			<div style="font-weight:bold;font-size:18px;color: #bbb;padding: 10px 0;">Redes sociais</div>
+			<div style="font-style:italic;font-size:12px;color: #aaa;">Integre suas redes sociais em seu site</div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- Como Funciona -->
+  <section id="howitworks">
+	  <div class="row">
+        <div class="col-lg-12 text-center tibher-header">
+			<small style="font-size: 20px;">Como</small>
+			<h2 class="section-heading" style="font-size: 50px;">Funciona?</h2>
+			
+		</div>
+      </div>
+	  <div class="row" style="padding: 0 10px;margin-bottom: 40px;">
+        <div class="col-lg-8 text-center mx-auto">
+			<span style="font-style: italic;color: #999;font-size: 18px;">Não importa em qual cidade você esteja. 
+			<br/>Com nosso atendimento online estamos prontos para te ajudar!</span>
+		</div>
+      </div>
+	  
+	  <div class="container">
+		<div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline">
+                        <span class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-comments"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Briefing</h3>
+                                <p class="description">
+                                    Conversamos com você pelo Facebook ou Whatsapp para entendermos você, sua ideia ou sua marca, seus objetivos bem como algumas informações do projeto
+                                </p>
+                            </div>
+                        </span>
+                        <span class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-laptop"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Desenvolvimento</h3>
+                                <p class="description">
+                                    Criamos um projeto atraente, criativo e eficaz para atender aquilo que conversamos durante o Briefing
+								</p>
+                            </div>
+                        </span>
+                        <span class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Apresentação</h3>
+                                <p class="description">
+                                    Você verá como ficou seu projeto. Apresentamos, ajustamos e se você gostar combinamos o pagamento. Tudo de forma <i>Online</i>
+                                </p>
+                            </div>
+                        </span>
+                        <span class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Sucesso</h3>
+                                <p class="description">
+                                    O projeto é publicado e você pode usar, divulgar ou fazer o que desejar!
+									Nós estaremos sempre atentos para te ajudar no que precisar.
+                                </p>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+	  </div>
+	
+ </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center tibher-header">
+			<small style="font-size: 20px;">Peça um</small>
+			<h2 class="section-heading" style="font-size: 50px;">Orçamento</h2>
+		</div>
+      </div>
+	  
+	  <div class="row">
+		<div class="col-lg-12 text-center">
+		  <h3 class="section-subheading text-muted" style="color: #eee !important;">
+			Seu orçamento  RÁPIDO, GRATUITO e SEM COMPROMISSO!
+			<br />
+		</h3>
+			
+		  <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" target="_blank"
+			style="padding: 10px 50px;" href="https://m.me/tibher99">
+			<small style="display:block;font-size: 9px;line-height: 11px;">Faça seu</small>
+			Orçamento
+		  </a>
+		</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+		<div class="col-md-4">
+			<ul class="list-inline quicklinks">
+				<li class="list-inline-item">
+					<img src="img/logo.png" width="30" height="30" style="width:30px;heigh:30px;"
+						alt="Tibher, desenvolvimento de soluções inteligentes"/>
+					<span style="color: #EEC900;font-size: 20px;">&nbsp;Tibher</span>
+				</li>
+				<li class="list-inline-item" style="color: #999;line-height: 18px;font-size: 14px;font-style: italic;padding: 10px 0;">
+				Nosso propósito é ajudar você no mundo online. Seja para uma empresa ou um projeto pessoal nós
+				criaremos um conceito criativo, eficiente e inovador para você alcançar seus objetivos.
+				</li>
+		</div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/tibher99" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+           
+          </ul>
+        </div>
+        <div class="col-md-4">
+		  <ul class="list-inline quicklinks">
+            <li class="list-inline-item" style="display:block;">
+		  	  <a class="portfolio-link" data-toggle="modal" href="#useTerms">Política de Privacidade</a>
+            </li>
+			<li class="list-inline-item">
+				<span class="copyright">&copy;2019 Tibher - Todos os direitos reservados</span>
+			</li>
+          </ul>	
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Termos de Uso -->
+  <div class="portfolio-modal modal fade" id="useTerms" tabindex="-1" role="dialog" aria-hidden="true"
+	style="padding: 0;margin:0;">
+    <div class="modal-dialog" style="padding: 0;">
+      <div class="modal-content" style="padding: 0;">
+        <div class="container" style="max-width: 100%;">
+		  <div class="row" style="padding: 10px 0;color:#fff;background-color: #EEC900;background-image: linear-gradient(to top, #EEC900 20%, #DE7300 100%);border-color: #EEC900;">
+            <div class="col-lg-12 text-center" style="margin:0;">
+				<button data-dismiss="modal" type="button" style="border-radius: 100%;float:right;padding: 1px 8px;border:0;background-color:transparent;">
+				  <i class="fas fa-times" style="font-size: 18px;color: #fff;"></i>
+				</button>
+				<span class="text-uppercase" style="font-size: 26px;"><small style="display:block;font-size:20px;line-height:20px;">Política de</small>
+				<span style="display:block;font-size:30px;">Privacidade</span></span>
+			</div>
+		  </div>	
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <div class="modal-body" style="text-align: justify;">
+				&nbsp;&nbsp;&nbsp;&nbsp;Todas as informações pessoais recolhidas, serão usadas para ajudar a tornar sua visita no nosso site mais produtiva e agradável.
+				A garantia da confidencialidade dos seus dados pessoais é muito importante para nós.
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;Por isso, todas as informações pessoais relativas a visitantes que usam o nosso site serão tratadas em concordância com a 
+				Lei Geral de Proteção de Dados Pessoais de 14 de agosto de 2018 (Lei nº 13.709).
+				
+				<br/><br/>
+                <strong style="display: block;" >Quais dados podem ser coletados?</strong>
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;A informação pessoal recolhida pode incluir o seu nome, e-mail, número 
+				de telefone e/ou celular, endereço de residência, data de nascimento e/ou outros.
+				
+				<br/><br/>
+                <strong style="display: block;" >Os anúncios</strong>
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tal como outros websites, coletamos e utilizamos informação 
+				contida nos anúncios. A informação contida nos anúncios, inclui o 
+				seu endereço IP (Internet Protocol), o seu ISP (Internet Service Provider), 
+				o browser que utilizou ao visitar o nosso website (como o Internet Explorer, Google Chrome ou o Firefox), o tempo da 
+				sua visita e que páginas visitou dentro do nosso website.
+				
+				<br/><br/>
+				<strong style="display: block;" >Cookie DoubleClick Dart</strong>
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;O Google, como fornecedor de terceiros, utiliza cookies para exibir 
+				anúncios no nosso website. Com o cookie DART, o Google pode exibir anúncios com base nas 
+				visitas que o leitor fez a outros websites na Internet. Os visitantes podem desativar o cookie DART 
+				visitando a sua conta pessoal no Google.
+				
+				<br/><br/>
+				<strong style="display: block;" >Os Cookies e Web Beacons</strong>
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;Utilizamos cookies para armazenar informação, tais como as suas 
+				preferências pessoais quando visita o nosso website. Isto poderá incluir um simples popup ou 
+				uma ligação em vários serviços que providenciamos.
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;Em adição também utilizamos publicidade de terceiros no nosso website 
+				para suportar os custos de manutenção. Alguns destes anunciantes poderão 
+				utilizar tecnologias como os cookies e/ou web beacons quando publicam 
+				no nosso website, o que fará com que esses anunciantes (como o 
+				Google através do Google AdSense) também recebam a sua informação pessoal, 
+				como o endereço IP, o seu ISP, o seu browser, entre outros.
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;Esta função é geralmente utilizada para geotargeting (mostrar 
+				publicidade de São Paulo apenas aos leitores  oriundos de São Paulo, por exemplo) ou apresentar 
+				publicidade direcionada a um tipo de utilizador (como mostrar publicidade de restaurante a um utilizador 
+				que visita sites de culinária regularmente, por exemplo).
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;Você pode desativar os seus cookies através das opções do seu browser 
+				ou efetuando alterações nas ferramentas de programas Anti-Virus. No entanto, 
+				isso poderá alterar a forma como você interage com o nosso website ou outros websites. 
+				Isso poderá afetar a utilização ou o acesso a recursos e funcionalidades do nosso website.
+				
+				<strong style="display: block;" >Links para Sites de terceiros</strong>
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;Nosso website possui links para outros sites, os quais, a nosso ver, 
+				podem conter informações ou ferramentas úteis para os nossos visitantes. 
+				A nossa política de privacidade não é aplicada a estes sites de terceiros. 
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;Portanto, caso você visite outro site a partir do nosso deverá ler a politica de privacidade do mesmo.
+				Não nos responsabilizamos pela política de privacidade ou conteúdo presente nesses mesmos sites.
+				
+					
+				<br/><br/>
+                <strong style="display: block;" >Consentimento</strong>
+				<br/>&nbsp;&nbsp;&nbsp;&nbsp;O uso deste site pressupõe a aceitação destes Termos de uso. 
+				A nossa equipe reserva-se ao direito de alterar estes termos de uso sem aviso prévio. Deste modo, 
+				recomendamos que consulte a nossos termos de uso com regularidade 
+				de forma a estar sempre atualizado.		
+				
+				<br/><br/>
+				<ul class="list-inline" style="font-style: italic;">
+                  <li>Publicado em: 22 de Fevereiro de 2019</li>
+                  <li>Autor: Tibher</li>
+                </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
 </body>
-</html>	
+
+</html>
